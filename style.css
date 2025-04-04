@@ -1,0 +1,26 @@
+.container {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(35deg, #006d77, #83c5be, #edf6f9, #ffddd2, #e29578);
+    background-size: 300% 300%;
+    animation: color 12s ease-in-out infinite;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly transparent board */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
